@@ -8,7 +8,7 @@ import {
   CardAnimation,
   AnimatedTitle,
 } from './components';
-import { imgArr, slideSize, phoneImg } from './constants';
+import { imgArr, slideSize, phoneImg, bgVideo } from './constants';
 
 const { xl, l, sm, xsm, mobile } = slideSize;
 
@@ -92,7 +92,7 @@ const MySlider = () => {
         }}
       >
         <AnimatedTitle text='INFINITE SLIDER' />
-        <VideoBackground src='https://static.moewalls.com/videos/preview/2023/cyberpunk-coffee-pixel-preview.mp4' />
+        <VideoBackground src={bgVideo} />
         <Slider infinite inView={3} checkInView={slideProps}>
           {imgArr.map((slide) => {
             const { id, img } = slide;

@@ -1,4 +1,6 @@
 import phoneImg from '../assets/phone.png';
+import bgVideo from '../assets/cyberpunk-coffee-pixel-preview.mp4';
+import bgThumbnail from '../assets/bg-thumbnail.png';
 
 const imgArr = [
   {
@@ -56,4 +58,4 @@ const slideSize = {
   },
 };
 
-export { imgArr, slideSize, phoneImg };
+export { imgArr, slideSize, phoneImg, bgVideo, bgThumbnail };
