@@ -1,1 +1,1 @@
-"# custom_slider" 
+"# my_custom_slider"
