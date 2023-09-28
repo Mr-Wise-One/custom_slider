@@ -1,1 +1,1 @@
-"# my-react-slider" 
+"# custom_slider" 
